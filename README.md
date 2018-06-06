@@ -1,4 +1,4 @@
-#final-project-knights-who-say-ni
+# final-project-knights-who-say-ni
 
 **Cs290 Final Project, Spring 2018**
 *Kyle Peterson, Dakota Baird, Changkuan Li, Hongyuan Zhu*
