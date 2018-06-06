@@ -25,25 +25,37 @@ Ingredients:
     
   
   Meat:
-    beef
-    pork
-    Hobbits
+    beef,
+    pork,
+    Hobbits,
     small children (while supplies last)
   
   Drink:
-    ketchup
-    water
-    glue
+    ketchup,
+    water,
+    glue,
+    the tears of CS 290 students
   
   Veggies:
-    lettuce
-    mushrooms
+    lettuce,
+    mushrooms,
   
   Sauce:
-    melted ice cream
+    melted ice cream,
     
   
   Toppings:
-    pop rocks
-    sprinkles
+    pop rocks,
+    sprinkles,
     pickles
+
+
+Schedule:
+
+6/8/2018: initial html Handlebars and css for all 3 pages are done. Pages are base homepage on startup, generated burger, liability agreement
+status:
+6/9/2018: node.js and .json files are created and implemented.
+status:
+6/10/2018: mongoDB used?
+status:
+6/11-13/2018: final touches and preset
