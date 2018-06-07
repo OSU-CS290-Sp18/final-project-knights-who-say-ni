@@ -19,35 +19,39 @@ Our project is... Totally legal burger shack (name subject to change)
 
 Ingredients:
   Bun:
-    bread
-    sponges
-    2 bricks
+    bread,
+    sponges,
+    2 bricks,
+    waffles
     
   
   Meat:
     beef,
     pork,
     Hobbits,
-    small children (while supplies last)
+    small children (while supplies last),
+    dinosaur,
+    grass
   
   Drink:
     ketchup,
     water,
     glue,
-    the tears of CS 290 students
+    the tears of CS 290 students,
+    
   
   Veggies:
     lettuce,
     mushrooms,
+    onions,
+    mandrakes
   
-  Sauce:
-    melted ice cream,
-    
-  
-  Toppings(side?):
+  side:
     pop rocks,
     sprinkles,
-    pickles
+    pickles,
+    calimari,
+    chicken feet
 
 
 Schedule:
