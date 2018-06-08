@@ -48,7 +48,6 @@ Ingredients:
   
   side:
     pop rocks,
-    sprinkles,
     pickles,
     calimari,
     chicken feet
