@@ -10,7 +10,7 @@ Requirements:
 * The app dynamically generates pages based on data stored in a back end data store, such as MongoDB.
 * The app’s client interface communicates with the app’s server to create, read, update, and/or delete content in the back end data store.
 
-Our project is... Totally legal burger shack (name subject to change)
+Our project is... Totally Legal Burger Shack (name subject to change)
 
 
 

@@ -1,0 +1,122 @@
+{
+    "buns": {
+        "photos":[
+            {
+                "description": "https://en.wikipedia.org/wiki/Brick",
+                "image": "images/bun/brick.png"
+
+            },
+            {
+                "description": "https://en.wikipedia.org/wiki/Bun",
+                "image": "images/bun/hamburger-bottom.png",
+                "image2": "images/bun/hamburger-top.png"
+
+            },
+            {
+                "description": "https://en.wikipedia.org/wiki/Sponge_(material)",
+                "image": "images/bun/sponge.png"
+
+            },
+            {
+                "description": "https://en.wikipedia.org/wiki/Waffle",
+                "image": "images/bun/waffle.png"
+
+            }
+        ]
+    },
+    "drink": {
+        "photos":[
+            {
+                "description": "https://en.wikipedia.org/wiki/Adhesive",
+                "image": "images/drink/glue.png"
+
+            },
+            {
+                "description": "https://en.wikipedia.org/wiki/Ketchup",
+                "image": "images/drink/ketchup.png"
+
+            },
+            {
+                "description": "https://en.wikipedia.org/wiki/Tears",
+                "image": "images/drink/tears.png"
+
+            },
+            {
+                "description": "https://en.wikipedia.org/wiki/Water",
+                "image": "images/drink/water.png"
+
+            }
+        ]
+    },
+    "meat": {
+        "photos":[
+            {
+                "description": "https://en.wikipedia.org/wiki/Hobbit",
+                "image": "images/meat/bilbo.png"
+
+            },
+            {
+                "description": "https://en.wikipedia.org/wiki/Ground_beef",
+                "image": "images/meat/burger.png"
+
+            },
+            {
+                "description": "https://en.wikipedia.org/wiki/Poaceae",
+                "image": "images/meat/grass.png"
+
+            },
+            {
+                "description": "https://en.wikipedia.org/wiki/Pork",
+                "image": "images/meat/pork.png"
+
+            }
+        ]
+    },
+    "side": {
+        "photos":[
+            {
+                "description": "https://en.wikipedia.org/wiki/Pop_Rocks",
+                "image": "images/side/poprocks.jpg"
+
+            },
+            {
+                "description": "https://en.wikipedia.org/wiki/Squid_as_food",
+                "image": "images/side/calamari.png"
+
+            },
+            {
+                "description": "https://en.wikipedia.org/wiki/Chicken_feet",
+                "image": "images/side/chickenfeet.png"
+
+            },
+            {
+                "description": "https://en.wikipedia.org/wiki/Pickled_cucumber",
+                "image": "images/side/pickles.png"
+
+            }
+        ]
+    },
+    "veggies": {
+        "photos":[
+            {
+                "description": "https://en.wikipedia.org/wiki/Lettuce",
+                "image": "images/veggies/lettuce.png"
+
+            },
+            {
+                "description": "https://en.wikipedia.org/wiki/Mandrake",
+                "image": "images/veggies/mandrake.png"
+            },
+            {
+                "description": "https://en.wikipedia.org/wiki/Onion",
+                "image": "images/veggies/onion.png"
+
+            },
+            {
+                "description": "https://en.wikipedia.org/wiki/Mushroom",
+                "image": "images/veggies/shrooms.png"
+
+            }
+        ]
+    }
+}
