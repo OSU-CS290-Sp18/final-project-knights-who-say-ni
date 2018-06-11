@@ -2,22 +2,26 @@
     "buns": {
         "photos":[
             {
+                "name": "Brick",
                 "description": "https://en.wikipedia.org/wiki/Brick",
                 "image": "images/bun/brick.png"
 
             },
             {
+                "name": "Bun",
                 "description": "https://en.wikipedia.org/wiki/Bun",
                 "image": "images/bun/hamburger-bottom.png",
                 "image2": "images/bun/hamburger-top.png"
 
             },
             {
+                "name": "Sponge",
                 "description": "https://en.wikipedia.org/wiki/Sponge_(material)",
                 "image": "images/bun/sponge.png"
 
             },
             {
+                "name": "Waffle",
                 "description": "https://en.wikipedia.org/wiki/Waffle",
                 "image": "images/bun/waffle.png"
 
@@ -27,21 +31,25 @@
     "drink": {
         "photos":[
             {
+                "name": "Glue",
                 "description": "https://en.wikipedia.org/wiki/Adhesive",
                 "image": "images/drink/glue.png"
 
             },
             {
+                "name": "Ketchup",
                 "description": "https://en.wikipedia.org/wiki/Ketchup",
                 "image": "images/drink/ketchup.png"
 
             },
             {
+                "name": "Tears of CS 290 Students",
                 "description": "https://en.wikipedia.org/wiki/Tears",
                 "image": "images/drink/tears.png"
 
             },
             {
+                "name": "Water",
                 "description": "https://en.wikipedia.org/wiki/Water",
                 "image": "images/drink/water.png"
 
@@ -51,21 +59,25 @@
     "meat": {
         "photos":[
             {
+                "name": "Hobbit",
                 "description": "https://en.wikipedia.org/wiki/Hobbit",
                 "image": "images/meat/bilbo.png"
 
             },
             {
+                "name": "Beef Patty",
                 "description": "https://en.wikipedia.org/wiki/Ground_beef",
                 "image": "images/meat/burger.png"
 
             },
             {
+                "name": "Grass",
                 "description": "https://en.wikipedia.org/wiki/Poaceae",
                 "image": "images/meat/grass.png"
 
             },
             {
+                "name": "Pork Chop",
                 "description": "https://en.wikipedia.org/wiki/Pork",
                 "image": "images/meat/pork.png"
 
@@ -75,21 +87,25 @@
     "side": {
         "photos":[
             {
+                "name": "Pop Rocks",
                 "description": "https://en.wikipedia.org/wiki/Pop_Rocks",
                 "image": "images/side/poprocks.jpg"
 
             },
             {
+                "name": "Calamari",
                 "description": "https://en.wikipedia.org/wiki/Squid_as_food",
                 "image": "images/side/calamari.png"
 
             },
             {
+                "name": "Chicken Feet",
                 "description": "https://en.wikipedia.org/wiki/Chicken_feet",
                 "image": "images/side/chickenfeet.png"
 
             },
             {
+                "name": "Pickles",
                 "description": "https://en.wikipedia.org/wiki/Pickled_cucumber",
                 "image": "images/side/pickles.png"
 
@@ -99,20 +115,24 @@
     "veggies": {
         "photos":[
             {
+                "name": "Lettuce",
                 "description": "https://en.wikipedia.org/wiki/Lettuce",
                 "image": "images/veggies/lettuce.png"
 
             },
             {
+                "name": "Mandrake",
                 "description": "https://en.wikipedia.org/wiki/Mandrake",
                 "image": "images/veggies/mandrake.png"
             },
             {
+                "name": "Onion",
                 "description": "https://en.wikipedia.org/wiki/Onion",
                 "image": "images/veggies/onion.png"
 
             },
             {
+                "name": "Mushrooms",
                 "description": "https://en.wikipedia.org/wiki/Mushroom",
                 "image": "images/veggies/shrooms.png"
 
