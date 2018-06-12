@@ -8,7 +8,7 @@ function handleGenerateClick(){
 }
 
 function getRandom() {
-    return (Math.random()%4);
+    return ( Math.floor(Math.random() * 3 + 1));
 }
 
 window.addEventListener('DOMContent"Loaded', function() {
