@@ -1,12 +1,11 @@
 {
-    "bun": {
-        "photos":[
+
+    "bun": [
             {
                 "type": "bun",
                 "name": "Brick",
                 "description": "https://en.wikipedia.org/wiki/Brick",
                 "image": "../images/bun/brick.png"
-
             },
             {
                 "type": "bun",
@@ -14,14 +13,12 @@
                 "description": "https://en.wikipedia.org/wiki/Bun",
                 "image": "../images/bun/hamburger-bottom.png",
                 "image2": "../images/bun/hamburger-top.png"
-
             },
             {
                 "type": "bun",
                 "name": "Sponge",
                 "description": "https://en.wikipedia.org/wiki/Sponge_(material)",
                 "image": "../images/bun/sponge.png"
-
             },
             {
                 "type": "bun",
@@ -30,10 +27,9 @@
                 "image": "../images/bun/waffle.png"
 
             }
-        ]
-    },
-    "drink": {
-        "photos":[
+         ],
+
+    "drink": [
             {
                 "type": "drink",
                 "name": "Glue",
@@ -62,10 +58,9 @@
                 "image": "../images/drink/water.png"
 
             }
-        ]
-    },
-    "meat": {
-        "photos":[
+        ],
+
+    "meat": [
             {
                 "type": "meat",
                 "name": "Hobbit",
@@ -94,10 +89,9 @@
                 "image": "../images/meat/pork.png"
 
             }
-        ]
-    },
-    "side": {
-        "photos":[
+        ],
+
+    "side": [
             {
                 "type": "side",
                 "name": "Pop Rocks",
@@ -126,10 +120,9 @@
                 "image": "../images/side/pickles.png"
 
             }
-        ]
-    },
-    "veggies": {
-        "photos":[
+        ],
+
+    "veggies": [
             {
                 "type": "veggies",
                 "name": "Lettuce",
@@ -158,5 +151,4 @@
 
             }
         ]
-    }
 }

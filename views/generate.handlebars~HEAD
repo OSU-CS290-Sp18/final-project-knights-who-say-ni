@@ -1,0 +1,102 @@
+    <h1 class="title">Ingredients</h1>
+    <main class="twit-container">
+      
+      <ul class="cailiao">
+        <li class="bun">
+          <h2>bun</h2>
+          <a href="##">
+            <img src="images/bun/brick.png" alt=""/>
+          </a>
+          <a href="##">
+            <img src="images/bun/hamburger-bottom.png" alt=""/>
+          </a>
+          <a href="##">
+            <img src="images/bun/hamburger-top.png" alt=""/>
+          </a>
+          <a href="##">
+            <img src="images/bun/sponge.png" alt=""/>
+          </a>
+          <a href="##">
+            <img src="images/bun/waffle.png" alt=""/>
+          </a>
+        </li>
+        <li class="drink">
+          <h2>drink</h2>
+          <a href="##">
+            <img src="images/drink/glue.png" alt=""/>
+          </a>
+          <a href="##">
+            <img src="images/drink/ketchup.png" alt=""/>
+          </a>
+          <a href="##">
+            <img src="images/drink/tears.png" alt=""/>
+          </a>
+          <a href="##">
+            <img src="images/drink/water.png" alt=""/>
+          </a>
+         
+        </li>
+        <li class="meat">
+          <h2>meat</h2>
+          <a href="##">
+            <img src="images/meat/bilbo.png" alt=""/>
+          </a>
+          <a href="##">
+            <img src="images/meat/burger.png" alt=""/>
+          </a>
+          <a href="##">
+            <img src="images/meat/dinosaur.png" alt=""/>
+          </a>
+          <a href="##">
+            <img src="images/meat/grass.png" alt=""/>
+          </a>
+          <a href="##">
+            <img src="images/meat/pork.png" alt=""/>
+          </a>
+        </li>
+        <li class="side">
+          <h2>side</h2>
+          <a href="##">
+            <img src="images/side/91bemDFCAQL._SY550_.jpg" alt=""/>
+          </a>
+          <a href="##">
+            <img src="images/side/calimari.png" alt=""/>
+          </a>
+          <a href="##">
+            <img src="images/side/chickenfeet.png" alt=""/>
+          </a>
+          <a href="##">
+            <img src="images/side/pickles.png" alt=""/>
+          </a>
+         
+        </li>
+        <li class="veggies">
+          <h2>veggies</h2>
+          <a href="##">
+            <img src="images/veggies/lettuce.png" alt=""/>
+          </a>
+          <a href="##">
+            <img src="images/veggies/mandrake.png" alt=""/>
+          </a>
+          <a href="##">
+            <img src="images/veggies/onion.png" alt=""/>
+          </a>
+          <a href="##">
+            <img src="images/veggies/shrooms.png" alt=""/>
+          </a>
+         
+        </li>
+      </ul>
+   
+
+     
+
+    </main>
+     <a href="##" class="yuck">
+      <i class="fa fa-arrow-left" aria-hidden="true"></i>
+      Yuck!
+    </a>
+    <a href="/liability" class="yum">
+      <i class="fa fa-arrow-right" aria-hidden="true"></i>
+      Yum!
+    </a>
