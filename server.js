@@ -16,19 +16,13 @@ app.get(['/home','/'], function (req, res, next){
 });
 
 app.get('/generate', function (req, res, next){
-    //var rand1 = Math.floor(Math.random()*3+1);
-    var bun = ingredientList["bun"];
-    var mybun = bun[Math.floor(Math.random()*3+1)];
-    var drink = ingredientList["drink"];
-    var mydrink = drink[Math.floor(Math.random()*3+1)];
-    var meat = ingredientList["meat"];
-    var mymeat = meat[Math.floor(Math.random()*3+1)];
-    var side = ingredientList["side"];
-    var myside = side[Math.floor(Math.random()*3+1)];
-    var veggies = ingredientList["veggies"];
-    var myveggies = veggies[Math.floor(Math.random()*3+1)];
-
-    var randList = [mybun, mydrink, mymeat, myside, myveggies];
+    var randList = [];
+    for (var ingredient in ingredientList){
+      var rand = Math.floor(Math.random()*3+1);
+      var middle = ingredientList[ingredient];
+      var myingredient = middle[rand];
+      randList.push(myingredient);
+    };
     console.log(randList);
     res.status(200).render('generate',{
          ingredients: randList
