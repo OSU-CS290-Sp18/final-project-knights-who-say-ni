@@ -1,162 +1,157 @@
 {
-    "bun": {
-        "photos":[
-            {
-                "type": "bun",
-                "name": "Brick",
-                "description": "https://en.wikipedia.org/wiki/Brick",
-                "image": "../images/bun/brick.png"
+  "bun": [
+    {
+      "type": "bun",
+      "name": "Brick",
+      "description": "https://en.wikipedia.org/wiki/Brick",
+      "image": "../images/bun/brick.png"
 
-            },
-            {
-                "type": "bun",
-                "name": "Burger Bun",
-                "description": "https://en.wikipedia.org/wiki/Bun",
-                "image": "../images/bun/hamburger-bottom.png",
-                "image2": "../images/bun/hamburger-top.png"
-
-            },
-            {
-                "type": "bun",
-                "name": "Sponge",
-                "description": "https://en.wikipedia.org/wiki/Sponge_(material)",
-                "image": "../images/bun/sponge.png"
-
-            },
-            {
-                "type": "bun",
-                "name": "Waffle",
-                "description": "https://en.wikipedia.org/wiki/Waffle",
-                "image": "../images/bun/waffle.png"
-
-            }
-        ]
     },
-    "drink": {
-        "photos":[
-            {
-                "type": "drink",
-                "name": "Glue",
-                "description": "https://en.wikipedia.org/wiki/Adhesive",
-                "image": "../images/drink/glue.png"
+    {
+      "type": "bun",
+      "name": "Burger Bun",
+      "description": "https://en.wikipedia.org/wiki/Bun",
+      "image": "../images/bun/hamburger-bottom.png",
+      "image2": "../images/bun/hamburger-top.png"
 
-            },
-            {
-                "type": "drink",
-                "name": "Ketchup",
-                "description": "https://en.wikipedia.org/wiki/Ketchup",
-                "image": "../images/drink/ketchup.png"
-
-            },
-            {
-                "type": "drink",
-                "name": "Tears of CS 290 Students",
-                "description": "https://en.wikipedia.org/wiki/Tears",
-                "image": "../images/drink/tears.png"
-
-            },
-            {
-                "type": "drink",
-                "name": "Water",
-                "description": "https://en.wikipedia.org/wiki/Water",
-                "image": "../images/drink/water.png"
-
-            }
-        ]
     },
-    "meat": {
-        "photos":[
-            {
-                "type": "meat",
-                "name": "Hobbit",
-                "description": "https://en.wikipedia.org/wiki/Hobbit",
-                "image": "../images/meat/bilbo.png"
+    {
+      "type": "bun",
+      "name": "Sponge",
+      "description": "https://en.wikipedia.org/wiki/Sponge_(material)",
+      "image": "../images/bun/sponge.png"
 
-            },
-            {
-                "type": "meat",
-                "name": "Beef Patty",
-                "description": "https://en.wikipedia.org/wiki/Ground_beef",
-                "image": "../images/meat/burger.png"
-
-            },
-            {
-                "type": "meat",
-                "name": "Grass",
-                "description": "https://en.wikipedia.org/wiki/Poaceae",
-                "image": "../images/meat/grass.png"
-
-            },
-            {
-                "type": "meat",
-                "name": "Pork Chop",
-                "description": "https://en.wikipedia.org/wiki/Pork",
-                "image": "../images/meat/pork.png"
-
-            }
-        ]
     },
-    "side": {
-        "photos":[
-            {
-                "type": "side",
-                "name": "Pop Rocks",
-                "description": "https://en.wikipedia.org/wiki/Pop_Rocks",
-                "image": "../images/side/poprocks.jpg"
+    {
+      "type": "bun",
+      "name": "Waffle",
+      "description": "https://en.wikipedia.org/wiki/Waffle",
+      "image": "../images/bun/waffle.png"
 
-            },
-            {
-                "type": "side",
-                "name": "Calamari",
-                "description": "https://en.wikipedia.org/wiki/Squid_as_food",
-                "image": "../images/side/calamari.png"
-
-            },
-            {
-                "type": "side",
-                "name": "Chicken Feet",
-                "description": "https://en.wikipedia.org/wiki/Chicken_feet",
-                "image": "../images/side/chicken feet.png"
-
-            },
-            {
-                "type": "side",
-                "name": "Pickles",
-                "description": "https://en.wikipedia.org/wiki/Pickled_cucumber",
-                "image": "../images/side/pickles.png"
-
-            }
-        ]
-    },
-    "veggies": {
-        "photos":[
-            {
-                "type": "veggies",
-                "name": "Lettuce",
-                "description": "https://en.wikipedia.org/wiki/Lettuce",
-                "image": "../images/veggies/lettuce.png"
-
-            },
-            {
-                "type": "veggies",
-                "name": "Mandrake",
-                "description": "https://en.wikipedia.org/wiki/Mandrake",
-                "image": "../images/veggies/mandrake.png"
-            },
-            {
-                "type": "veggies",
-                "name": "Onion",
-                "description": "https://en.wikipedia.org/wiki/Onion",
-                "image": "../images/veggies/onion.png"
-
-            },
-            {
-                "type": "veggies",
-                "name": "Mushrooms",
-                "description": "https://en.wikipedia.org/wiki/Mushroom",
-                "image": "../images/veggies/shrooms.png"
-
-            }
-        ]
     }
+
+  ],
+  "drink": [
+    {
+      "type": "drink",
+      "name": "Glue",
+      "description": "https://en.wikipedia.org/wiki/Adhesive",
+      "image": "../images/drink/glue.png"
+
+    },
+    {
+      "type": "drink",
+      "name": "Ketchup",
+      "description": "https://en.wikipedia.org/wiki/Ketchup",
+      "image": "../images/drink/ketchup.png"
+
+    },
+    {
+      "type": "drink",
+      "name": "Tears of CS 290 Students",
+      "description": "https://en.wikipedia.org/wiki/Tears",
+      "image": "../images/drink/tears.png"
+
+    },
+    {
+      "type": "drink",
+      "name": "Water",
+      "description": "https://en.wikipedia.org/wiki/Water",
+      "image": "../images/drink/water.png"
+
+    }
+
+  ],
+  "meat": [
+    {
+      "type": "meat",
+      "name": "Hobbit",
+      "description": "https://en.wikipedia.org/wiki/Hobbit",
+      "image": "../images/meat/bilbo.png"
+
+    },
+    {
+      "type": "meat",
+      "name": "Beef Patty",
+      "description": "https://en.wikipedia.org/wiki/Ground_beef",
+      "image": "../images/meat/burger.png"
+
+    },
+    {
+      "type": "meat",
+      "name": "Grass",
+      "description": "https://en.wikipedia.org/wiki/Poaceae",
+      "image": "../images/meat/grass.png"
+
+    },
+    {
+      "type": "meat",
+      "name": "Pork Chop",
+      "description": "https://en.wikipedia.org/wiki/Pork",
+      "image": "../images/meat/pork.png"
+
+    }
+
+  ],
+  "side": [
+    {
+      "type": "side",
+      "name": "Pop Rocks",
+      "description": "https://en.wikipedia.org/wiki/Pop_Rocks",
+      "image": "../images/side/poprocks.jpg"
+
+    },
+    {
+      "type": "side",
+      "name": "Calamari",
+      "description": "https://en.wikipedia.org/wiki/Squid_as_food",
+      "image": "../images/side/calamari.png"
+
+    },
+    {
+      "type": "side",
+      "name": "Chicken Feet",
+      "description": "https://en.wikipedia.org/wiki/Chicken_feet",
+      "image": "../images/side/chicken feet.png"
+
+    },
+    {
+      "type": "side",
+      "name": "Pickles",
+      "description": "https://en.wikipedia.org/wiki/Pickled_cucumber",
+      "image": "../images/side/pickles.png"
+
+    }
+
+  ],
+  "veggies": [
+    {
+      "type": "veggies",
+      "name": "Lettuce",
+      "description": "https://en.wikipedia.org/wiki/Lettuce",
+      "image": "../images/veggies/lettuce.png"
+
+    },
+    {
+      "type": "veggies",
+      "name": "Mandrake",
+      "description": "https://en.wikipedia.org/wiki/Mandrake",
+      "image": "../images/veggies/mandrake.png"
+    },
+    {
+      "type": "veggies",
+      "name": "Onion",
+      "description": "https://en.wikipedia.org/wiki/Onion",
+      "image": "../images/veggies/onion.png"
+
+    },
+    {
+      "type": "veggies",
+      "name": "Mushrooms",
+      "description": "https://en.wikipedia.org/wiki/Mushroom",
+      "image": "../images/veggies/shrooms.png"
+
+    }
+
+  ]
 }
