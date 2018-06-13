@@ -26,28 +26,27 @@ app.get(['/home','/'], function (req, res, next){
 });
 
 app.get('/generate', function (req, res, next){
-	 var ingredientCollection = mongoDB.collection('ingredients');
-	 var randList = [];
-	 ingredientCollection.find().toArray(function (err, ingredientArr){
-		 if(err){
-		 	console.log("error! using backup json");
-		 	ingredient = ingredientList;
-		 };
-		 var ingredientDoc = ingredientArr[0];
-		 for (var ingredient in ingredientDoc){
-		 	console.log(ingredient);
-		   var rand = Math.floor(Math.random()*3+1);
+	var ingredientCollection = mongoDB.collection('ingredients');
+	var randList = [];
+	ingredientCollection.find().toArray(function (err, ingredientArr){
+		if(err){
+			console.log("error! using backup json");
+			ingredient = ingredientList;
+		};
+		var ingredientDoc = ingredientArr[0];
+		for (var ingredient in ingredientDoc){
+			var rand = Math.floor(Math.random()*3+1);
 			var middle = ingredientDoc[ingredient];
 			var myingredient = middle[rand];
 			if(myingredient != null)
 				randList.push(myingredient);
-		 };
-   	 //console.log(randList);
-    	 res.status(200).render('generate', {
-       	ingredients: randList
-    	 });
-	 });
- });
+		};
+		//console.log(randList);
+		res.status(200).render('generate', {
+			ingredients: randList
+		});
+	});
+});
 
  app.get('/liability', function (req, res, next){
     res.status(200).render('liability');
