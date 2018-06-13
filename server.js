@@ -27,36 +27,26 @@ app.get(['/home','/'], function (req, res, next){
 
 app.get('/generate', function (req, res, next){
 	 var ingredientCollection = mongoDB.collection('ingredients');
-	 var ingredient;
+	 var randList = [];
 	 ingredientCollection.find().toArray(function (err, ingredientArr){
 		 if(err){
 		 	console.log("error! using backup json");
 		 	ingredient = ingredientList;
-		 } else {
-		   ingredient = ingredientArr[0];
 		 };
- 	  	 var rand1 = Math.floor(Math.random() * 3 + 1);
-    	 var rand2 = Math.floor(Math.random() * 3 + 1);
-	    var rand3 = Math.floor(Math.random() * 3 + 1);
-   	 var rand4 = Math.floor(Math.random() * 3 + 1);
-	    var rand5 = Math.floor(Math.random() * 3 + 1);
-   	 var bun = ingredient.bun[rand1];
-	    var drink = ingredient.drink[rand2];
-	    var meat = ingredient.meat[rand3];
-   	 var side = ingredient.side[rand4];
-	    var veggie = ingredient.veggies[rand5];
-	    var randingredient = {
-        bun:bun,
-        drink:drink,
-        meat:meat,
-        side: side,
-        veggie:veggie
-    	 };
-   	 //console.log(randingredient);
+		 var ingredientDoc = ingredientArr[0];
+		 for (var ingredient in ingredientDoc){
+		 	console.log(ingredient);
+		   var rand = Math.floor(Math.random()*3+1);
+			var middle = ingredientDoc[ingredient];
+			var myingredient = middle[rand];
+			if(myingredient != null)
+				randList.push(myingredient);
+		 };
+   	 //console.log(randList);
     	 res.status(200).render('generate', {
-       	ingredients: randingredient
-    });
-	});
+       	ingredients: randList
+    	 });
+	 });
  });
 
  app.get('/liability', function (req, res, next){
