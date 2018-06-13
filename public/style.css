@@ -93,10 +93,11 @@ a:focus {
   outline: none;
 }
 
-.twit-container {
+.ingredients-container {
   margin: 50px 10%;
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-end;
 }
 
 header{
@@ -115,8 +116,8 @@ header .logo{
 }
 
 .ing{
-  width: 33%;
-    margin: 0;
+  width: 32%;
+    margin: 2.5px;
     background: #fff;
     border-radius: 5px;
     padding: 0;
@@ -128,6 +129,10 @@ header .logo{
     text-align: center;
     border-bottom: 1px dotted #ddd;
     padding-bottom: 20px;
+}
+
+.ing li:last-child{
+  border-bottom: none;
 }
 
 .ing img{
@@ -200,4 +205,11 @@ header .logo{
 
 .bottom .text{
   padding: 20px 5% 0 0;
+}
+
+.agreement p{
+  background-color: white;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 50px;
 }

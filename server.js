@@ -37,7 +37,8 @@ app.get('/generate', function (req, res, next){
 		};
 		var ingredientDoc = ingredientArr[0];
 		for (var ingredient in ingredientDoc){
-			var rand = Math.floor(Math.random()*3+1);
+			var rand = Math.floor(Math.random()*Math.floor(4));
+	//		console.log("random number:", rand);
 			var middle = ingredientDoc[ingredient];
 			var myingredient = middle[rand];
 			if(myingredient != null){
@@ -53,7 +54,7 @@ app.get('/generate', function (req, res, next){
 		//console.log(randList);
 		res.status(200).render('generate', {
 			drinks: drinks,
-			ingredients: randList,
+			ingredients: [randList[0],randList[2],randList[1],randList[0]],
 			sides: sides
 		});
 	});
