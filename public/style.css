@@ -99,45 +99,54 @@ a:focus {
   flex-wrap: wrap;
 }
 
-/*header*/
 header{
   overflow: hidden;
   height: 55px;
   background: #fff;
 }
+
 header .logo{
   float: left;
 }
+
 .title{
   text-align: center;
   padding: 10px;
 }
-.cailiao{
-  width: 700px;
-    margin: 0 auto;
+
+.ing{
+  width: 33%;
+    margin: 0;
     background: #fff;
     border-radius: 5px;
-    padding: 25px;
+    padding: 0;
 }
-.cailiao li{
+
+.ing li{
   list-style: none;
     margin-top: 20px;
     text-align: center;
     border-bottom: 1px dotted #ddd;
     padding-bottom: 20px;
 }
-.cailiao img{
-  width: 100px;
+
+.ing img{
+  width: 50%;
   vertical-align: top;
   margin-left: 35px;
+  display: block;
+  margin: 20px auto;
 }
+
 .center{
   text-align: center;
 }
+
 .fa-caret-down{
   font-size: 48px;
   
 }
+
 .btn{
   width: 100px;
     height: 40px;
@@ -149,28 +158,35 @@ header .logo{
     border-radius: 5px;
     font-size: 16px;
 }
+
 .container{
   padding-top: 100px;
 }
+
 .yuck{
   float: left;
   margin-left: 50px;
   font-size: 30px;
 }
+
 .yum{
   float: right;
   margin-right: 50px;
   font-size: 30px;
 }
+
 .fl{
   float: left;
 }
+
 .fr{
   float: right;
 }
+
 .btn-1{
   margin: 0 50px;
 }
+
 .bottom{
   position: absolute;
     bottom: 0;
@@ -181,6 +197,7 @@ header .logo{
     line-height: 50px;
     
 }
+
 .bottom .text{
   padding: 20px 5% 0 0;
 }
