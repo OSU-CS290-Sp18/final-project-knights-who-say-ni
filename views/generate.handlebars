@@ -1,14 +1,17 @@
   <h1 class="title">Ingredients</h1>
     <main class="ingredients-container">
       
-      <ul class="cailiao">
-        {{#each ingredients}}
-            {{> ingredientCard}}
-        {{/each}}
+      <ul class= “ing list-1">
+          {{> ingredientCard}}
       </ul>
-   
-
-     
+        <ul class= "ing list-2">
+            {{#each ingredients}}
+            {{> ingredientCard}}
+            {{/each}}
+        </ul>
+      <ul class= "ing list-3">
+          {{> ingredientCard}
+      </ul>    
 
     </main>
      <a href="/generate" class="yuck">
