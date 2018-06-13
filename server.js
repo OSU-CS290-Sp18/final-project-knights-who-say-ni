@@ -43,7 +43,9 @@ app.get('/generate', function (req, res, next){
 		};
 		//console.log(randList);
 		res.status(200).render('generate', {
-			ingredients: randList
+		//drink: randlist(2),
+            	ingredients: randList,
+            	//side: randList(4)
 		});
 	});
 });
