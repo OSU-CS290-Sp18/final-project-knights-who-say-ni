@@ -2,7 +2,9 @@
     <main class="ingredients-container">
       
       <ul class= “ing list-1">
+			 {{#each drinks}}
           {{> ingredientCard}}
+			 {{/each}}
       </ul>
         <ul class= "ing list-2">
             {{#each ingredients}}
@@ -10,7 +12,9 @@
             {{/each}}
         </ul>
       <ul class= "ing list-3">
-          {{> ingredientCard}
+			 {{#each sides}}
+          {{> ingredientCard}}
+			 {{/each}}
       </ul>    
 
     </main>

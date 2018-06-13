@@ -6,7 +6,7 @@ var MongoClient = require('mongodb').MongoClient;
 var ingredientList = require('./ingredientList');
 
 var app = express();
-var port = process.env.PORT || 17177;
+var port = process.env.PORT || 17171;
 
 var mongoHost = process.env.MONGO_HOST || 'classmongo.engr.oregonstate.edu';
 var mongoPort = process.env.MONGO_PORT || '27017';
@@ -28,6 +28,8 @@ app.get(['/home','/'], function (req, res, next){
 app.get('/generate', function (req, res, next){
 	var ingredientCollection = mongoDB.collection('ingredients');
 	var randList = [];
+	var drinks = [];
+	var sides = [];
 	ingredientCollection.find().toArray(function (err, ingredientArr){
 		if(err){
 			console.log("error! using backup json");
@@ -38,31 +40,38 @@ app.get('/generate', function (req, res, next){
 			var rand = Math.floor(Math.random()*3+1);
 			var middle = ingredientDoc[ingredient];
 			var myingredient = middle[rand];
-			if(myingredient != null)
-				randList.push(myingredient);
+			if(myingredient != null){
+				if(myingredient.type === 'drink'){
+					drinks.push(myingredient);
+				} else if(myingredient.type === 'side'){
+					sides.push(myingredient);
+				} else {
+					randList.push(myingredient);
+				};
+			};
 		};
 		//console.log(randList);
 		res.status(200).render('generate', {
-		//drink: randlist(2),
-            	ingredients: randList,
-            	//side: randList(4)
+			drinks: drinks,
+			ingredients: randList,
+			sides: sides
 		});
 	});
 });
 
- app.get('/liability', function (req, res, next){
-    res.status(200).render('liability');
- });
+app.get('/liability', function (req, res, next){
+	res.status(200).render('liability');
+});
 
- app.get('/order', function (req, res, next){
-    res.status(200).render('order');
- });
+app.get('/order', function (req, res, next){
+	res.status(200).render('order');
+});
 
 app.use('/images',express.static('images'));
 app.use(express.static('public'));
 
 app.get('*', function (req, res, next){
-   res.status(400).render('404');
+	res.status(400).render('404');
 });
 
 MongoClient.connect(mongoURL, function (err, client) {
